@@ -19,7 +19,7 @@ $(document).ready(function () {
 
 				if (!data.success) {
 					//if error occured, error is output to sweetalert popup via the data.err return from login.php
-					
+
 					if (data.err.password) {
 						swal({
 							type: 'error',
@@ -33,9 +33,9 @@ $(document).ready(function () {
 							function () {},
 							// handling the promise rejection
 							function (dismiss) {
-							if (dismiss === 'timer') {
-								// console.log('I was closed by the timer')
-							}
+								if (dismiss === 'timer') {
+									// console.log('I was closed by the timer')
+								}
 							}
 						);
 					}
@@ -53,13 +53,13 @@ $(document).ready(function () {
 							function () {},
 							// handling the promise rejection
 							function (dismiss) {
-							if (dismiss === 'timer') {
-								// console.log('I was closed by the timer')
-							}
+								if (dismiss === 'timer') {
+									// console.log('I was closed by the timer')
+								}
 							}
 						);
 					}
-				}else {
+				} else {
 					//If login is successful, redirect to x-memos.php.
 					window.location = "x-memos.php";
 				}
