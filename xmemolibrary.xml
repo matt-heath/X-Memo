@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<xmemolibrary>
+  <users>
+    <user>
+      <username>matthewheath</username>
+      <password>passW0RD</password>
+      <name>Matthew Heath</name>
+    </user>
+    <user>
+      <username>adrianmoore</username>
+      <password>password</password>
+      <name>Adrian Moore</name>
+    </user>
+  </users>
+  <memos>
+    <memo id="5">
+      <title>Finish Web Assignment 1</title>
+      <sender>Matthew Heath</sender>
+      <recipients>
+        <recipient>Matthew Heath</recipient>
+      </recipients>
+      <date>24/10/2017</date>
+      <summary>Fix bugs and write documentation.</summary>
+      <url>reactjs.org/</url>
+    </memo>
+    <memo id="4">
+      <title>Test Memo Update</title>
+      <sender>Matthew Heath</sender>
+      <recipients>
+        <recipient>Adrian Moore</recipient>
+        <recipient>Matthew Heath</recipient>
+      </recipients>
+      <date>24/10/2017</date>
+      <summary>Test Content</summary>
+      <url>testmemo.co.uk</url>
+    </memo>
+    <memo id="3">
+      <title>Adrian Moore Website.</title>
+      <sender>Adrian Moore</sender>
+      <recipients>
+        <recipient>Adrian Moore</recipient>
+        <recipient>Matthew Heath</recipient>
+      </recipients>
+      <date>23/10/2017</date>
+      <summary>Note to Matthew and to self...</summary>
+      <url>adrianmoore.net/finalyear</url>
+    </memo>
+    <memo id="2">
+      <title>Matthew Heath Website.</title>
+      <sender>Matthew Heath</sender>
+      <recipients>
+        <recipient>Adrian Moore</recipient>
+        <recipient>Matthew Heath</recipient>
+      </recipients>
+      <date>22/10/2017</date>
+      <summary>Note to Adrian and to self....</summary>
+      <url>matthewheath.co.uk</url>
+    </memo>
+    <memo id="1">
+      <title>Make Dinner</title>
+      <sender>Adrian Moore</sender>
+      <recipients>
+        <recipient>Matthew Heath</recipient>
+      </recipients>
+      <date>20/10/2017</date>
+      <summary>Make some dinner.</summary>
+      <url>countryliving.com/dinner-recipes/</url>
+    </memo>
+  </memos>
+</xmemolibrary>
